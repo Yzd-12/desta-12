@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RZF Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1..png" type="image/x-icon">
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="1..png" alt="RZF Software Logo">
+            </div>
+            <!-- Menu Icon for Mobile -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- Unicode character for the burger menu icon -->
+            </div>
+            <!-- Navigation Menu -->
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="layanan_kami.html">Layanan Kami</a></li>
+                    <li><a href="tentang_kami.html">Tentang Kami</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <!-- Bagian FAQ -->
+<section id="faq" class="faq-section">
+    <div class="container">
+        <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">Apa Yang Dimaksud Dengan Program RZF Software?</div>
+                <div class="faq-answer">
+                    <p>Program RZF Software adalah suatu aplikasi komputer yang dirancang oleh Team Developer RZF Software untuk membantu Anda dalam memudahkan proses pengelolaan data penjualan dan pembelian produk, data pelanggan, data laporan stok dan keuangan, serta masih banyak fitur lainnya. Sehingga, tujuan dari sistem komputerisasi ini adalah seluruh data perusahaan/instansi lebih terorganisir, hingga pemrosesan yang akurat dalam waktu yang relatif singkat.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Apa Keunggulan Program RZF Software Dengan Program Sejenis Lainnya Di Pasaran Internet?</div>
+                <div class="faq-answer">
+                    <p>Setiap program memiliki kelebihan dan kekurangan masing-masing dari segi fitur program hingga layanan. Namun, Pihak Developer Program RZF Software memberikan Garansi Sistem selama 1 Tahun dan Support Lifetime (selama Aplikasi digunakan), serta tambahan Layanan Gratis Maintenance untuk 2 Bulan Pertama.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Apakah Ada Jaminan Ketika Program Aplikasi Ada Masalah?</div>
+                <div class="faq-answer">
+                    <p>Ada, Garansi software seumur hidup penggunaan (Life Time Warranty) yang berkaitan dengan kesalahan atau bug dari pemrograman.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Berapa Jumlah Produk Aplikasi yang Dibuat dan Telah Tersedia di RZF Software?</div>
+                <div class="faq-answer">
+                    <p>Kami memiliki lebih dari 10 Produk yang sudah jadi dan siap digunakan untuk membantu memudahkan segala kebutuhan pengguna dalam pengelolaan usaha. Selain Aplikasi Siap Pakai, kami juga menyediakan jasa request custom Aplikasi sesuai keinginan pengguna.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Bagaimana Cara Download dan Instalasi Program Aplikasi RZF Software melalui Website?</div>
+                <div class="faq-answer">
+                    <p>Caranya mudah. Silakan hubungi tim CS kami untuk meminta Link Download dan Tutorial Instalasi Program Aplikasi berupa File PDF, Video dan File Help.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Bagaimana Cara Melakukan Pembelian Program Aplikasi RZF Software?</div>
+                <div class="faq-answer">
+                    <p>Untuk pembelian Program Aplikasi RZF Software bisa langsung menghubungi nomor CS atau melalui Link Order dengan Mengisi Data dan selanjutnya Bayar melalui Transfer via Rekening. Selain itu Produk RZF Software bisa dibeli melalui Marketplace Shopee, Tokopedia dan Bukalapak.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                item.classList.toggle('open');
+            });
+        });
+    });
+</script>
+
+
+ <script src="scripts.js"></script>
+
